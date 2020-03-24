@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="475dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="189dp"
+        android:text="Positioning"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="434dp"
+        android:layout_height="373dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginEnd="12dp"
+        app:srcCompat="@drawable/spsi" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity=""
+        android:layout_marginStart="118dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="373dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="291dp"
+        android:gravity="center"
+        android:text="Indoor"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="541dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="123dp"
+        android:text="System"
+        android:textSize="50sp" />
+
+    <ProgressBar
+        android:id="@+id/pb"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="187dp"
+        android:layout_marginEnd="178dp"
+        android:layout_marginBottom="35dp" />
+
+</RelativeLayout>
